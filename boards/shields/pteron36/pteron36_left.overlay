@@ -4,6 +4,18 @@
     col-offset = <5>;
 };
 
+&pteron36_3x5_3_inner {
+    col-offset = <5>;
+};
+
+&pteron36_3x5_3_outer {
+    col-offset = <5>;
+};
+
+&pteron36_3x5_2 {
+    col-offset = <5>;
+};
+
 &kscan0 {
     col-gpios
         = <&pro_micro 16 GPIO_ACTIVE_HIGH>

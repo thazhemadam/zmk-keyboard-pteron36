@@ -5,6 +5,18 @@
     transform = <&pteron36_3x5_4>;
 };
 
+&pteron36_inner_thumbs {
+    transform = <&pteron36_3x5_3_inner>;
+};
+
+&pteron36_outer_thumbs {
+    transform = <&pteron36_3x5_3_outer>;
+};
+
+&pteron36_two_thumbs {
+    transform = <&pteron36_3x5_2>;
+};
+
 / {
     chosen {
         zmk,kscan = &kscan0;
