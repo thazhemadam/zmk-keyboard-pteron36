@@ -1,3 +1,4 @@
+name: pteron36
 build:
   settings:
     board_root: .
